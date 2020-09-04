@@ -327,9 +327,10 @@ const styles = StyleSheet.create({
     padding:20,
     marginBottom:0,
     height: 200,
-    width: 200,
+    width: 1000,
     marginTop: 0,
     alignItems:'flex-start',
+   
 
 
   },
