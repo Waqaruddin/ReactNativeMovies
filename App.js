@@ -1,7 +1,6 @@
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
-import { StatusBar } from 'expo-status-bar';
-import React, { useState } from 'react';
+import React from 'react';
 import { SafeAreaView,StyleSheet, FlatList,Text, Button, Image, View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { TextInput, TouchableOpacity } from 'react-native-gesture-handler';
@@ -55,9 +54,10 @@ return(
           renderItem = {({ item }) => (
  
             <View style = {styles.item}>
-            <Button title = {item.title} style={{backgroundColor:"#FF8C00"}}  onPress= {() => navigation.navigate(item.title) }>
+            <TouchableOpacity  style={{backgroundColor:"#FF8C00"}}  onPress= {() => navigation.navigate(item.title) }>
+            <Text style={styles.item}>{item.title} </Text>
 
-            </Button>
+            </TouchableOpacity>
 
             </View>
 
