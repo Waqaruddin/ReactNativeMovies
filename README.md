@@ -1,4 +1,4 @@
-# react-native-movies-list
+# movie-list-hybrid-application
 
 Screen shots:
 
@@ -6,3 +6,5 @@ Screen shots:
 [![Movies2.png](https://i.postimg.cc/qB6N6Gbn/Movies2.png)](https://postimg.cc/YjkrJQwq)
 [![Movies6.png](https://i.postimg.cc/QNJRb2yr/Movies6.png)](https://postimg.cc/0rrW5Bvt)
 [![Movies7.png](https://i.postimg.cc/MpvNzvKW/Movies7.png)](https://postimg.cc/LJFNT417)
+
+
